@@ -30,14 +30,27 @@ p{
     color: #464646;
     margin: 15px 0 20px 0;
 }
+
 button.normal{
     font-size: 14px;
     font-weight: 600;
-    padding: 15px 20px;
+    padding: 12px 18px;
     color: #000000;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 9px;
+    background-color: #ffff;
+    border: 1px solid #ffff;
+    cursor: pointer;
+    outline: none;
+    transition: 0.03s;
+}
+
+button.white{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 20px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffff;
+    border-radius: none;
     cursor: pointer;
     outline: none;
     transition: 0.03s;
@@ -220,7 +233,7 @@ body{
     border: 1px solid #e0e0e0;
     border-radius: 12px;
     cursor: pointer;
-    box-shadow: 20px 20px 20px rgba(255, 246, 246, 0.4)  ;
+    box-shadow: 20px 20px 20px rgba(255, 246, 246, 0.4);
     margin: 15px 0;
     transition: 0.2s ease;
     position: relative;
@@ -299,4 +312,82 @@ body{
 #banner button:hover{
     color: #ffffff;
     background-color:#007bff ;
+    border: none;
+}
+/* 2nd banner section */
+#banner-02{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#banner-02 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("assets/banner/b17.jpg");
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+#banner-02 .banner-box-2 {
+    background-image: url("assets/banner/b10.jpg");
+} 
+#banner-02 h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+#banner-02 h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+#banner-02 span{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#banner-02 .banner-box:hover button{
+    color: #ffffff;
+    background-color:#007bff ;
+    border: none;
+}
+
+/* banner-03 section */
+#banner-03{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ 
+}
+#banner-03 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("assets/banner/b7.jpg");
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+#banner-03 h2{
+    color: white;
+}
+#banner-03 h3{
+    color: rgb(255, 0, 0);
+}
+#banner-03 .banner-box2 {
+    background-image: url("assets/banner/b4.jpg");
+   
+}
+#banner-03 .banner-box3 {
+    background-image: url("assets/banner/b18.jpg");
+   
 }
