@@ -391,3 +391,56 @@ body{
     background-image: url("assets/banner/b18.jpg");
    
 }
+/* new-letter section */
+#new-letter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("assets/banner/b14.jpg");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+     
+}
+#new-letter h4{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+}
+#new-letter p{
+    color: #a2a2a2;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#new-letter span{
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: 500;
+}
+#new-letter input{
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    width: 100%;
+    border: 1px solid  transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#new-letter .form{
+    display: flex;
+    justify-content: space-between;
+}
+#new-letter button{
+  background-color: #007bff;
+  color: #fff;
+  width: 140px;
+  height: 50px;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  border: none;
+
+}
