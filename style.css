@@ -444,3 +444,61 @@ body{
   border: none;
 
 }
+
+/* footer section */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .logo{
+    margin-bottom: 30px;
+   
+}
+footer h4{
+    font-size: 18px;
+    margin-bottom: 20px; 
+}
+footer p{
+    font-size: 14px;
+    margin: 0 0 8px 0;   
+}
+footer a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;  
+} 
+footer .fallow{
+    margin-top: 20px;
+}
+footer .fallow i{
+    color: #212027;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .install .row img{
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    margin: 10px 0 15px 0;
+    cursor: pointer;
+}
+footer .install img{
+    margin: 10px 0 15px 0;
+    cursor: pointer;
+}
+
+footer .fallow i:hover,footer a:hover{
+    color: #007bff;
+}
+footer .copyright{
+    text-align: center;
+    width: 100%;
+}
